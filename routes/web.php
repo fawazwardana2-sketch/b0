@@ -28,7 +28,7 @@ return "Profil Mahasiswa dengan NIM: " . htmlspecialchars($nim);
 Route::get('/salam/{nama?}', function ($nama = 'Mahasiswa') {
 return "Halo, Selamat Belajar " . htmlspecialchars($nama) . "!";
 });
-
+`
 Route::get('/tentang-laboratorium-web', function () {
 return 'Halaman Resmi Laboratorium Komputer dan Teknologi Web.';
 })->name('lab.about');
